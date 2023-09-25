@@ -4,7 +4,7 @@ Docker y otras formas de virtualización, como las máquinas virtuales (VM), tie
 
 ![docker-vs-vm](images/containers-vs-virtual-machines.jpg)
 
-# Docker:
+## 2.1. Docker:
 1. Virtualización a nivel de contenedor:
    - Docker utiliza contenedores, que son entornos ligeros y autocontenidos que comparten el mismo sistema operativo host. Cada contenedor se ejecuta en una única instancia del kernel del sistema operativo subyacente.
    - Los contenedores son más eficientes en términos de recursos en comparación con las VMs, ya que no requieren un sistema operativo completo para cada aplicación.
@@ -20,7 +20,7 @@ Docker y otras formas de virtualización, como las máquinas virtuales (VM), tie
 4. Orquestación:
    - Docker se utiliza comúnmente junto con herramientas de orquestación como Kubernetes y Docker Swarm para gestionar y escalar contenedores en entornos de producción.
 
-# Máquinas Virtuales (VMs):
+## 2.2. Máquinas Virtuales (VMs):
 
 1. Virtualización a nivel de hardware:
    - Las VMs emulan un hardware completo y pueden ejecutar múltiples sistemas operativos completos en un solo host físico.

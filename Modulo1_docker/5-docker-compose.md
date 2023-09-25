@@ -47,7 +47,7 @@ volumes: El mapeo de volúmenes que conecta rutas locales con rutas dentro del c
 
 environment: Las variables de entorno que se pueden configurar para el servicio. Estas variables pueden ser cruciales para la configuración de la aplicación dentro del contenedor.
 
-# Comandos
+## Comandos
 
 docker-compose up: Iniciar servicios definidos en el archivo Compose y ejecutar la aplicación.
 
@@ -57,7 +57,7 @@ docker-compose ps: Listar los servicios en ejecución y su estado.
 
 Referencia: [https://docs.docker.com/compose/compose-file/](https://docs.docker.com/compose/compose-file/)
 
-# Ejemplo:
+## Ejemplo:
 
 Montando un wordpress:
 
