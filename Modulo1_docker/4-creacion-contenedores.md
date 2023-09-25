@@ -4,21 +4,21 @@ Un Dockerfile es un archivo de texto plano que contiene instrucciones y comandos
 
 Los Dockerfiles son esenciales en la tecnología de contenedores, ya que permiten la reproducibilidad y la automatización de la creación de imágenes, lo que facilita la implementación y el despliegue de aplicaciones en entornos de contenedores. Algunas de las características y componentes clave de un Dockerfile incluyen:
 
-Instrucciones: Un Dockerfile contiene una serie de instrucciones que se ejecutan secuencialmente para construir la imagen. Estas instrucciones incluyen comandos como FROM, RUN, COPY, EXPOSE, CMD, entre otros.
+1. Instrucciones: Un Dockerfile contiene una serie de instrucciones que se ejecutan secuencialmente para construir la imagen. Estas instrucciones incluyen comandos como FROM, RUN, COPY, EXPOSE, CMD, entre otros.
 
-Capas: Cada instrucción en un Dockerfile crea una nueva capa en la imagen resultante. Las capas son una parte fundamental de la arquitectura de Docker, ya que permiten la reutilización de capas comunes entre imágenes, lo que ahorra espacio de almacenamiento.
+2. Capas: Cada instrucción en un Dockerfile crea una nueva capa en la imagen resultante. Las capas son una parte fundamental de la arquitectura de Docker, ya que permiten la reutilización de capas comunes entre imágenes, lo que ahorra espacio de almacenamiento.
 
-FROM: La primera instrucción en un Dockerfile debe ser FROM, que especifica la imagen base a partir de la cual se construirá la nueva imagen. Por ejemplo, FROM ubuntu:20.04 indica que se utilizará la imagen base de Ubuntu 20.04 como punto de partida.
+3. FROM: La primera instrucción en un Dockerfile debe ser FROM, que especifica la imagen base a partir de la cual se construirá la nueva imagen. Por ejemplo, FROM ubuntu:20.04 indica que se utilizará la imagen base de Ubuntu 20.04 como punto de partida.
 
-RUN: La instrucción RUN se utiliza para ejecutar comandos dentro del contenedor durante el proceso de construcción. Estos comandos pueden incluir la instalación de paquetes, la descarga de dependencias o la compilación de código.
+4. RUN: La instrucción RUN se utiliza para ejecutar comandos dentro del contenedor durante el proceso de construcción. Estos comandos pueden incluir la instalación de paquetes, la descarga de dependencias o la compilación de código.
 
-COPY y ADD: Estas instrucciones permiten copiar archivos y directorios desde el sistema de archivos local del host al sistema de archivos del contenedor. COPY se utiliza principalmente para copiar archivos locales al contenedor, mientras que ADD puede realizar tareas adicionales, como descomprimir archivos.
+5. COPY y ADD: Estas instrucciones permiten copiar archivos y directorios desde el sistema de archivos local del host al sistema de archivos del contenedor. COPY se utiliza principalmente para copiar archivos locales al contenedor, mientras que ADD puede realizar tareas adicionales, como descomprimir archivos.
 
-EXPOSE: La instrucción EXPOSE se utiliza para especificar los puertos en los que el contenedor escuchará las conexiones. Sin embargo, esta instrucción no publica automáticamente los puertos en el host, es simplemente una documentación de la intención del contenedor.
+6. EXPOSE: La instrucción EXPOSE se utiliza para especificar los puertos en los que el contenedor escuchará las conexiones. Sin embargo, esta instrucción no publica automáticamente los puertos en el host, es simplemente una documentación de la intención del contenedor.
 
-CMD y ENTRYPOINT: Estas instrucciones definen el comando que se ejecutará cuando se inicie un contenedor basado en la imagen. CMD se utiliza para proporcionar un comando predeterminado que se puede sobrescribir cuando se ejecuta el contenedor, mientras que ENTRYPOINT define un comando que no se puede sobrescribir fácilmente.
+7. CMD y ENTRYPOINT: Estas instrucciones definen el comando que se ejecutará cuando se inicie un contenedor basado en la imagen. CMD se utiliza para proporcionar un comando predeterminado que se puede sobrescribir cuando se ejecuta el contenedor, mientras que ENTRYPOINT define un comando que no se puede sobrescribir fácilmente.
 
-Variables de entorno: Se pueden definir variables de entorno dentro del Dockerfile para configurar el entorno de ejecución de la aplicación en el contenedor.
+8. Variables de entorno: Se pueden definir variables de entorno dentro del Dockerfile para configurar el entorno de ejecución de la aplicación en el contenedor.
 
 Los Dockerfiles son esenciales para el desarrollo y la implementación de aplicaciones en contenedores Docker, ya que permiten a los desarrolladores definir de manera precisa y automatizada cómo se deben configurar y construir las imágenes de sus aplicaciones. Esto facilita la creación de imágenes consistentes y reproducibles, lo que es fundamental para la adopción exitosa de la tecnología de contenedores.
 ## 4.1. Creación de un Dockerfile Personalizado
