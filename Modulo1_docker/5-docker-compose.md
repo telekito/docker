@@ -1,4 +1,4 @@
-# Docker compose
+# 5. Docker compose
 
 Docker Compose es una herramienta poderosa que permite definir y gestionar aplicaciones multi-contenedor de forma declarativa. A medida que las aplicaciones se vuelven más complejas y requieren la interacción de varios servicios y componentes, Docker Compose se convierte en una solución eficiente para coordinar todos estos elementos.
 

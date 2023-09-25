@@ -1,6 +1,4 @@
-
-
-# ¿Qué es docker?
+# 1. ¿Qué es docker?
 
 Docker es una herramienta que ayuda a empaquetar aplicaciones y todas sus partes (código, bibliotecas y dependencias) en un paquete llamado "contenedor". Estos contenedores son como cajas autocontenidas que funcionan igual en cualquier lugar. Evitamos "En mi máquina funciona"
 

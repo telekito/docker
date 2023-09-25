@@ -1,4 +1,4 @@
-# Docker vs Virtualizacion
+# 2. Docker vs Virtualizacion
 
 Docker y otras formas de virtualización, como las máquinas virtuales (VM), tienen diferencias significativas en cuanto a su enfoque, arquitectura y casos de uso.
 
