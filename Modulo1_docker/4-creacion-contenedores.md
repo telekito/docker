@@ -1,4 +1,4 @@
-# 4. Creación de Contenedores (20 minutos)
+# 4. Creación de Contenedores
 ## 4.1. Creación de un Dockerfile Personalizado
 
 1. Crea un archivo llamado Dockerfile en un directorio de tu elección.

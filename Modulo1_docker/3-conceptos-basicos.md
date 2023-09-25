@@ -1,4 +1,4 @@
-3. Conceptos Básicos de Docker (20 minutos)
+3. Conceptos Básicos de Docker 
 
 
 - Imágenes y contenedores.
