@@ -39,13 +39,13 @@ volumes:      # Definición de volúmenes
 Definición de servicios y contenedores
 En la sección services de tu archivo docker-compose.yml, defines los servicios que componen tu aplicación. Cada servicio tiene un nombre único y puede incluir lo siguiente:
 
-image: La imagen del contenedor que se utilizará para ese servicio. Puede ser una imagen pública de Docker Hub o una imagen personalizada que hayas creado.
+- image: La imagen del contenedor que se utilizará para ese servicio. Puede ser una imagen pública de Docker Hub o una imagen personalizada que hayas creado.
 
-ports: El mapeo de puertos que permite acceder a servicios dentro del contenedor desde el host. Por ejemplo, "80:80" mapea el puerto 80 del host al puerto 80 del contenedor.
+- ports: El mapeo de puertos que permite acceder a servicios dentro del contenedor desde el host. Por ejemplo, "80:80" mapea el puerto 80 del host al puerto 80 del contenedor.
 
-volumes: El mapeo de volúmenes que conecta rutas locales con rutas dentro del contenedor. Esto se utiliza para compartir datos y archivos entre el host y el contenedor.
+- volumes: El mapeo de volúmenes que conecta rutas locales con rutas dentro del contenedor. Esto se utiliza para compartir datos y archivos entre el host y el contenedor.
 
-environment: Las variables de entorno que se pueden configurar para el servicio. Estas variables pueden ser cruciales para la configuración de la aplicación dentro del contenedor.
+- environment: Las variables de entorno que se pueden configurar para el servicio. Estas variables pueden ser cruciales para la configuración de la aplicación dentro del contenedor.
 
 ## Comandos
 
