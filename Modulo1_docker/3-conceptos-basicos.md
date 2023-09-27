@@ -3,9 +3,9 @@
 
 - Imágenes y contenedores.
 
-una "imagen" es una plantilla que contiene un sistema de archivos con todo lo necesario para ejecutar una aplicación, incluyendo código, bibliotecas y configuraciones. Las imágenes son de solo lectura y se utilizan para crear "contenedores".
+  - Una "imagen" es una plantilla que contiene un sistema de archivos con todo lo necesario para ejecutar una aplicación, incluyendo código, bibliotecas y configuraciones. Las imágenes son de solo lectura y se utilizan para crear "contenedores".
 
-Un "contenedor" es una instancia en tiempo de ejecución de una imagen. Los contenedores son entornos aislados que comparten el mismo kernel del sistema operativo subyacente, pero tienen su propio sistema de archivos y procesos. Los contenedores son ligeros y rápidos de crear y destruir.
+  - Un "contenedor" es una instancia en tiempo de ejecución de una imagen. Los contenedores son entornos aislados que comparten el mismo kernel del sistema operativo subyacente, pero tienen su propio sistema de archivos y procesos. Los contenedores son ligeros y rápidos de crear y destruir.
 
 - Docker Hub y repositorios de imágenes.
 [Docker Hub](https://hub.docker.com/) es un registro público de imágenes de Docker que los desarrolladores pueden usar. Docker Hub alberga miles de imágenes predefinidas que se pueden usar como base para crear contenedores personalizados.
