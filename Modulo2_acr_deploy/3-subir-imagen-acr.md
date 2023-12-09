@@ -13,15 +13,29 @@ az acr login --name <nombre-del-registro>
 ```
 Reemplaza <nombre-del-registro> con el nombre de tu ACR.
 
-3. Etiquetar la imagen: Etiqueta la imagen local con la dirección del registro de Azure.
+3. Generamos nuestra imagen de docker
+
+```bash
+docker build -t nginx .
+```
+4. Etiquetar la imagen: Etiqueta la imagen local con la dirección del registro de Azure.
 
 ```bash
 docker tag <nombre-de-la-imagen-local> <nombre-del-registro>.azurecr.io/<nombre-de-la-imagen-en-acr>:<tag>
 ```
-<nombre-de-la-imagen-local>: Nombre de la imagen que tienes localmente.
-<nombre-del-registro>: Nombre de tu ACR en Azure.
-<nombre-de-la-imagen-en-acr>: Nombre que deseas para la imagen en tu ACR.
-<tag>: Versión o etiqueta de la imagen.
+```bash
+docker tag nginx <nombre-del-registro>.azurecr.io/<nombre-de-la-imagen-en-acr>:<tag>
+```
+
+- \<nombre-de-la-imagen-local>: Nombre de la imagen que tienes localmente.
+- \<nombre-del-registro>: Nombre de tu ACR en Azure.
+- \<nombre-de-la-imagen-en-acr>: Nombre que deseas para la imagen en tu ACR.
+- \<tag>: Versión o etiqueta de la imagen.
+
+Tambien podemos generar la imagen con el tag directamente:
+```bash
+docker build -t  <nombre-del-registro>.azurecr.io/<nombre-de-la-imagen-en-acr>:<tag> .
+```
 
 4. Subir la imagen etiquetada al ACR:
 

@@ -29,4 +29,12 @@
 
 2. Iniciar sesión en Azure desde la CLI: Ejecuta el comando az login para iniciar sesión en tu cuenta de Azure desde la CLI.
 
+```bash
+az login
+```
+
 3. Iniciar sesión en el ACR: Ejecuta el comando az acr login --name <nombre-del-registro> para iniciar sesión en el ACR desde la CLI.
+
+```bash
+az acr login --name <nombre-del-registro>
+```
