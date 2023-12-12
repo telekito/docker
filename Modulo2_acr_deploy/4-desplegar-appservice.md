@@ -6,7 +6,7 @@
    ![Alt text](images/webapp.png)
 
 Importante no olvidar selecconar que la forma de publicación será "Docker Container"
-![Alt text](image.png)
+![Alt text](images/webapp-config.png)
 
 2. Dentro del App Service nos dirigimos a a opción de Identity y activamos la System Assigned Managed Identity (puede hacerse con User Assigned Managed Identity)
 
