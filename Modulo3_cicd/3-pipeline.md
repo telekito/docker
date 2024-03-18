@@ -72,3 +72,7 @@ Protección del entorno de producción: para solicitar aprobación para desplega
 ![alt text](./images/proteccion.png)
 
 Si volvemos a desplegar, observaremos que el pipeline no finaliza hasta que los usuarios autorizados validen el cambio.
+
+![alt text](./images/pending.png)
+
+![alt text](./images/validate.png)
